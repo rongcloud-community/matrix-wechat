@@ -5,19 +5,54 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: git_pull" time="9.443205">
+      <testcase classname="fastlane.lanes" name="0: git_pull" time="8.378369">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.033978">
+      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.033588">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: version_bump_podspec" time="0.000655">
+      <testcase classname="fastlane.lanes" name="2: version_bump_podspec" time="0.002076">
         
-          <failure message="/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:229:in `chdir&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing&apos;&#10;Fastfile:17:in `block in parsing_binding&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:45:in `chdir&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:45:in `execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:354:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:43:in `start&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/bin/fastlane:23:in `&lt;top (required)&gt;&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `load&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `&lt;main&gt;&apos;&#10;&#10;Could not find podspec file at path matrix-wechat.podspec" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: git_add" time="0.337197">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.075708">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: push_to_git_remote" time="27.162112">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: git_tag_exists" time="0.046216">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: add_git_tag" time="0.038175">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: push_git_tags" time="3.970035">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: cd /Users/dev/Documents/rc_work/work_codes/zq_codes/gitee/RCE_Codes/matrix-wechat &amp;&amp; pod lib lint matrix-wechat.podspec --no-clean --allow-warnings  --skip-import-validation" time="3.448678">
+        
+          <failure message="/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/fast_file.rb:222:in `sh&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/fast_file.rb:216:in `sh&apos;&#10;Fastfile:43:in `block in parsing_binding&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:45:in `chdir&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/runner.rb:45:in `execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:354:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/commands_generator.rb:43:in `start&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/bin/fastlane:23:in `&lt;top (required)&gt;&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `load&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `&lt;main&gt;&apos;&#10;&#10;Exit status of command &apos;cd /Users/dev/Documents/rc_work/work_codes/zq_codes/gitee/RCE_Codes/matrix-wechat &amp;&amp; pod lib lint matrix-wechat.podspec --no-clean --allow-warnings  --skip-import-validation&apos; was 1 instead of 0.&#10;&#10; -&gt; matrix-wechat -&gt; matrix-wechat (1.0.11)&#10;    - NOTE  | url: The URL (https://gitee.com/rcbm/rcbm-ios-workbench-kit.git) is not reachable.&#10;    - ERROR | [iOS] file patterns: The `resources` pattern did not match any file.&#10;    - ERROR | [iOS] file patterns: The `vendored_frameworks` pattern did not match any file.&#10;&#10;Pods workspace available at `/var/folders/72/fkcldywd2gzgyrcgbk_vcm440000gn/T/CocoaPods-Lint-20220822-4736-j4q3e3-matrix-wechat/App.xcworkspace` for inspection.&#10;&#10;[!] matrix-wechat did not pass validation, due to 2 errors.&#10;&#10;[!] Skipping compilation with `xcodebuild` because target contains no sources.&#10;" />
         
       </testcase>
     

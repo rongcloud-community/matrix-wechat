@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
 	s.ios.deployment_target    = '9.0'
 #	s.module_name = "Matrix"
 # s.ios.vendored_frameworks   = 'ios/RCBMWorkKit.framework' , 'ios/openssl.framework'
-	s.ios.vendored_framework   = 'ios/Matrix.xcframework'
+	s.ios.vendored_framework   = 'ios/Matrix.framework'
 	# s.public_header_files = 'ios/RCBMWorkKit.framework/Versions/A/Headers/RCBMWorkKitConfig.h'
-	s.resource = 'ios/RCBMDefaultTheme.bundle'
+#	s.resource = 'ios/RCBMDefaultTheme.bundle'
 	s.pod_target_xcconfig = {
 		'VALID_ARCHS' => 'arm64 x86_64',
 #   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',

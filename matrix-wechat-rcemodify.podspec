@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-	s.name = "matrix-wechat"
-	s.version = "1.0.11"
+	s.name = "matrix-wechat-rcemodify"
+	s.version = "1.0.1"
 	s.summary = "Modify Matrix for iOS/macOS is a performance probe tool developed and used by WeChat."
 	s.license = {"type"=>"MIT", "file"=>"LICENSE"}
 	s.authors = {"asunrong"=>"gongjiahao@rongcloud.cn"}

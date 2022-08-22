@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 	s.summary = "Modify Matrix for iOS/macOS is a performance probe tool developed and used by WeChat."
 	s.license = {"type"=>"MIT", "file"=>"LICENSE"}
 	s.authors = {"asunrong"=>"gongjiahao@rongcloud.cn"}
-	s.homepage = "https://gitee.com/rcbm/rcbm-ios-workbench-kit.git"
+	s.homepage = "https://github.com/rongcloud-community/matrix-wechat.git"
 	s.description = "Modify Matrix for iOS/macOS is a performance probe tool developed and used by WeChat. \nIt is currently integrated into the APM (Application Performance Manage) platform inside WeChat. \nThe monitoring scope of the current tool includes: crash, lag, and out-of-memory, which includes the following two plugins:\n\n1.WCCrashBlockMonitorPlugin: Based on [KSCrash](https://github.com/kstenerud/KSCrash) framework, it features cutting-edge lag stack capture capabilities with crash cpature.\n\n2.WCMemoryStatPlugin: A performance-optimized out-of-memory monitoring tool that captures memory allocation and the callstack of an application's out-of-memory event."
 	s.source = { :git => 'https://github.com/rongcloud-community/matrix-wechat.git', :tag => s.version.to_s }
 	
